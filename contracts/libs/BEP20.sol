@@ -4,6 +4,8 @@ pragma solidity >=0.6.0 <0.8.0;
 import './Context.sol';
 import './IBEP20.sol';
 import './Ownable.sol';
+import './SafeMath.sol';
+import './Address.sol';
 
 contract BEP20 is Context, IBEP20, Ownable {
     using SafeMath for uint256;

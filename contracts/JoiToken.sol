@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.6.0 <0.8.0;
 
+import './libs/BEP20.sol';
 
 contract JoiToken is BEP20("JOI", "JOI") {
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterChef).
